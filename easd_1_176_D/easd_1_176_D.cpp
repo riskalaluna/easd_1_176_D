@@ -85,4 +85,18 @@ void Display() {
 	cout << "\n==================" << endl;
 	cout << "\nrray yang tersusun" << endl;
 	cout << "\n===================" << endl;
+
+	for (int i = 0; i < n; i++) {
+		cout << lrr[i] << " " << endl;
+	}
+	cout << "\n\nJumlah data yang dibandingkan : " << cmp_count << endl;
+	cout << "Jumlah data yang berpindah : " << mov_count << endl;
+}
+
+int main() {
+	input();
+	algorithm(0, n - 1);
+	Display();
+
+	return();
 }
