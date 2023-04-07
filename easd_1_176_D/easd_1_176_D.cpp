@@ -47,4 +47,16 @@ void algorithm(int low, int high) {
 	int pivot, i, LR;
 	if (low > high)
 		return;
+
+	pivot = lrr[low];
+	i = low + 1;
+	LR = high;
+
+	while (i <= LR) {
+
+		while ((lrr[i] <= pivot) && (i <= high)) {
+			i++;
+			cmp_count++;
+		}
+	}
 }
