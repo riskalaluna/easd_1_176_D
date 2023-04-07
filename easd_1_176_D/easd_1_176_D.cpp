@@ -16,5 +16,13 @@ void input() {
 	while (true) {
 		cout << "Masukkan panjang elemen array : ";
 		cin >> n;
+
+		if (n <= 65)
+			break;
+		else
+			cout << "\n=================";
+			cout << "\nMaksimum panjang array adalah 65";
+
+
 	}
 }
