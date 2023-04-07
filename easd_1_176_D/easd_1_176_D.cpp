@@ -35,3 +35,10 @@ void input() {
 		cin >> lrr[i];
 	}
 }
+
+void swap(int x, int y) {
+	int temp;
+	temp = lrr[x];
+	lrr[x] = lrr[y];
+	lrr[y] = temp;
+}
