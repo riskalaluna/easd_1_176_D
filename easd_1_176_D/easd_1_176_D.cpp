@@ -76,4 +76,13 @@ void algorithm(int low, int high) {
 		swap(low, LR);
 		mov_count++;
 	}
+	algorithm(low, LR - 1);
+
+	algorithm(LR + 1, high);
+
+}
+void Display() {
+	cout << "\n==================" << endl;
+	cout << "\nrray yang tersusun" << endl;
+	cout << "\n===================" << endl;
 }
