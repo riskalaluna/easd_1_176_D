@@ -58,5 +58,11 @@ void algorithm(int low, int high) {
 			i++;
 			cmp_count++;
 		}
+		cmp_count++;
+
+		while ((lrr[LR] > pivot) && (LR >= low)) {
+			LR--;
+			cmp_count++;
+		}
 	}
 }
