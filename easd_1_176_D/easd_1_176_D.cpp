@@ -29,4 +29,9 @@ void input() {
 	cout << "===========================" << endl;
 	cout << "\nMasukkan elemen array" << endl;
 	cout << "===========================" << endl;
+
+	for (int i = 0; i < n; i++) {
+		cout << (i + 1) << "). ";
+		cin >> lrr[i];
+	}
 }
