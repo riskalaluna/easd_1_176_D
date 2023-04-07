@@ -42,3 +42,9 @@ void swap(int x, int y) {
 	lrr[x] = lrr[y];
 	lrr[y] = temp;
 }
+
+void algorithm(int low, int high) {
+	int pivot, i, LR;
+	if (low > high)
+		return;
+}
