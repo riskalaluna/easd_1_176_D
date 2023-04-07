@@ -65,4 +65,15 @@ void algorithm(int low, int high) {
 			cmp_count++;
 		}
 	}
+	cmp_count++;
+	if (i < LR) {
+
+		swap(i, LR);
+		mov_count++;
+	}
+	if (low < LR) {
+
+		swap(low, LR);
+		mov_count++;
+	}
 }
