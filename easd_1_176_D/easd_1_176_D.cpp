@@ -20,9 +20,13 @@ void input() {
 		if (n <= 65)
 			break;
 		else
-			cout << "\n=================";
+			cout << "\n=================================";
 			cout << "\nMaksimum panjang array adalah 65";
-
-
+			cout << "\n=================================" << endl;
+			cout << endl;
 	}
+
+	cout << "===========================" << endl;
+	cout << "\nMasukkan elemen array" << endl;
+	cout << "===========================" << endl;
 }
