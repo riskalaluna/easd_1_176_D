@@ -7,3 +7,8 @@
 #include <iostream>
 using namespace std;
 
+int lrr[65];
+int cmp_count = 0;
+int mov_count = 0;
+int n;
+
